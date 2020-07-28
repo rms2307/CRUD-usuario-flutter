@@ -6,17 +6,17 @@ const DUMMY_USERS = {
       name: 'Maria',
       email: 'maria@email.com.br',
       avatarUrl:
-          'https://pixabay.com/pt/illustrations/%C3%ADcone-usu%C3%A1rio-feminino-avatar-5359554/'),
+          'https://cdn.pixabay.com/photo/2016/11/18/23/38/child-1837375_960_720.png'),
   '2': const User(
       id: '2',
       name: 'João',
       email: 'João@email.com.br',
       avatarUrl:
-          'https://pixabay.com/pt/illustrations/crian%C3%A7a-avatar-%C3%ADcone-design-plano-1837375/'),
+          'https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359554_960_720.png'),
   '3': const User(
       id: '3',
       name: 'Fernanda',
       email: 'fernanda@email.com.br',
       avatarUrl:
-          'https://pixabay.com/pt/vectors/avatar-feminino-menina-hijab-jovem-1606914/'),
+          'https://cdn.pixabay.com/photo/2016/08/20/05/36/avatar-1606914_960_720.png'),
 };
