@@ -25,7 +25,6 @@ class UsersProvider with ChangeNotifier {
     }
 
     if (user.id != null &&
-        // Update
         user.id.trim().isNotEmpty &&
         _items.containsKey(user.id)) {
       _items.update(
@@ -36,7 +35,6 @@ class UsersProvider with ChangeNotifier {
               email: user.email,
               avatarUrl: user.avatarUrl));
     } else {
-      // Insert
       final id = Random().nextDouble().toString();
       _items.putIfAbsent(
           id,

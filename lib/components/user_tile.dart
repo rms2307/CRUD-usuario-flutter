@@ -1,6 +1,5 @@
 import 'package:CRUD_flutter/models/users.dart';
 import 'package:CRUD_flutter/routes/app_routes.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class UserTile extends StatelessWidget {
